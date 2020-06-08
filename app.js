@@ -183,7 +183,6 @@ function setLevel(level) {
     paddle.dx += 0.2 * (level - 7);
   }
 }
-console.log(ball.speed);
 
 function setColors(level) {
   arr = [];
