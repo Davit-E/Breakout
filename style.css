@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Atari;
+  src: url('font/AtariST8x16SystemFont.ttf');
+}
+
+html,
+body {
+  /* min-width: 100%;
+  min-height: 100%; */
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Atari;
+  position: relative;
+  color: white;
+}
+
+.backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+.player_loses {
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#game_over {
+  font-size: 5rem;
+  color: rgb(200, 0, 0);
+}
+
+#current_score,
+#high_score {
+  font-size: 4rem;
+}
+
+.next_level {
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#next_level_text {
+  font-size: 5rem;
+}
